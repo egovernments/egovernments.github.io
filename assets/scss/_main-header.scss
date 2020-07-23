@@ -1,0 +1,33 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  height: 4.375rem;
+  background-color: var(--MAIN-HEADER-color);
+  z-index: 15;
+}
+
+.main-header-wrap {
+  width: 100%;
+  padding: 0 1.25rem;
+}
+
+.main-header-logo {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.main-header-logo-image {
+  max-height: 30px;
+  max-width: none;
+}

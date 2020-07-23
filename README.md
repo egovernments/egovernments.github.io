@@ -1,23 +1,49 @@
-# Mediumish - Jekyll Theme
+# Kubermatic Documentation
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+Kubermatic is a Cluster-as-a-Service that provides managed Kubernetes for your infrastructure.
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+With Kubermatic, you can set up Kubernetes clusters deployed at the click of button. While Kubermatic makes sure that your cluster is available and up-to-date at all times, you can focus on developing your services.
+
+## Generate Kubermatic Docs locally
+
+To generate the documentation you will need to download and install the [hugo](https://gohugo.io/overview/installing/) static website engine. **Please note:** you need to install the extended version of Hugo for building a website locally.
+
+Clone the repository to your local device and create a new feature branch.
+
+```
+git clone https://github.com/kubermatic/docs
+git checkout -b my-new-contribution
+```
+
+Generate and serve the documentation at `localhost:1313`:
+
+```
+hugo server -b localhost:1313 -w
+```
+
+For further information please have a look at our contribution guide [here](/content/contributing).
+
+## Contributing
+
+Thanks for taking the time to join our community and start contributing!
+
+Feedback and discussion are available on [the mailing list][11].
+
+### Before you start
+
+* Please familiarize yourself with the [Code of Conduct][4] before contributing.
+* See [CONTRIBUTING.md][2] for instructions on the developer certificate of origin that we require.
+* Read how [we're using ZenHub][13] for project and roadmap planning
+
+### Pull requests
+
+* We welcome pull requests. Feel free to dig through the [issues][1] and jump in.
 
 
-### Copyright
 
-Copyright (C) 2019 Sal, https://www.wowthemes.net
+[1]: https://github.com/kubermatic/docs/issues
+[2]: https://github.com/kubermatic/docs/blob/master/CONTRIBUTING.md
+[4]: https://github.com/kubermatic/docs/blob/master/CODE_OF_CONDUCT.md
 
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
-
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-### Contribute
-
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
-
-Thank you!
+[11]: https://groups.google.com/forum/#!forum/loodse-dev
+[13]: https://github.com/kubermatic/docs/blob/master/docs/zenhub.md
