@@ -1,3 +1,13 @@
+<div style="text-align:left; width: 100%; margin-bottom: 10px;">
+    <select class="nav-list-link" style="margin-left: 2rem;color: #757575;">
+        <option value="">Product</option>
+    <option value="1">Kubernet</option>
+    </select>
+    <select class="nav-list-link" style="margin-left: 0.5rem;color: #757575;">
+        <option value="">Version</option>
+        <option value="1.1">1.1</option>
+    </select>
+    </div>
 <ul class="nav-list">
   {%- assign ordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order != nil" -%}
   {%- assign unordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order == nil" -%}
