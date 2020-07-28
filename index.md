@@ -1,3 +1,4 @@
+![jtd](assets/images/digit-logo.png)
 ---
 layout: default
 title: Home
@@ -6,6 +7,7 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 last_modified_date: 2020-04-27T17:54:08+0000
 ---
+
 
 # Focus on writing good documentation
 {: .fs-9 }
