@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://egovernments.github.io/egov_test/zh/basics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://egovernments.github.io/egov_test/en/basics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://egovernments.github.io/egov_test/fr/basics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://egovernments.github.io/egov_test/zh/basics/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://egovernments.github.io/egov_test/zh/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://egovernments.github.io/egov_test/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://egovernments.github.io/egov_test/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://egovernments.github.io/egov_test/zh/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://egovernments.github.io/egov_test/zh/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://egovernments.github.io/egov_test/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://egovernments.github.io/egov_test/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://egovernments.github.io/egov_test/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://egovernments.github.io/egov_test/zh/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://egovernments.github.io/egov_test/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://egovernments.github.io/egov_test/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://egovernments.github.io/egov_test/zh/tags/"
+                />
+  </url>
+  
+</urlset>
